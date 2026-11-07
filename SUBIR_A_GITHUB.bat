@@ -7,7 +7,7 @@ echo ==========================================
 echo   APPSALON - SUBIR A GITHUB
 echo ==========================================
 echo.
-echo Repositorio: https://github.com/tatojc/appsalon
+echo Repositorio: https://github.com/tatojc/salonapp
 echo Cuenta que debes autorizar: tatojc
 echo.
 echo Se abrira la autorizacion de GitHub en tu navegador.
@@ -15,6 +15,13 @@ echo Entra como tatojc y pulsa Authorize Git Credential Manager.
 echo Si aparece otra cuenta, entra con tatojc en esa ventana.
 echo No cierres esta terminal mientras autorizas.
 echo.
+
+git remote set-url origin https://github.com/tatojc/salonapp.git
+if errorlevel 1 (
+  echo No se pudo configurar el repositorio de destino.
+  pause
+  exit /b 1
+)
 
 git credential-manager github login --username tatojc --browser
 if errorlevel 1 (
@@ -38,7 +45,7 @@ if errorlevel 1 (
 
 echo.
 echo SUBIDA COMPLETADA.
-echo Abre https://github.com/tatojc/appsalon
+echo Abre https://github.com/tatojc/salonapp
 echo.
 git log -1 --oneline
 pause

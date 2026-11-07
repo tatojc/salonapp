@@ -5,8 +5,8 @@ Aplicación académica para reservar servicios de salón y administrar trabajado
 Requiere **Node.js 22 o posterior**. El servidor usa módulos de Node.js y puede iniciarse sin instalar paquetes:
 
 ```powershell
-git clone https://github.com/tatojc/appsalon.git
-cd appsalon
+git clone https://github.com/tatojc/salonapp.git
+cd salonapp
 npm.cmd run preview
 ```
 
