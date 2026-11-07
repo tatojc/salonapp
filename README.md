@@ -37,3 +37,5 @@ npm.cmd run package
 Los datos de texto están en `tools/content-v2.mjs` y la composición PDF en `tools/documents.mjs`. Los scripts `prepare`, `refine`, `polish` y similares registran pasos de construcción ya aplicados; no es necesario volver a ejecutarlos.
 
 El prototipo guarda datos ficticios en el navegador. Incluye backend local, agenda compartida y sesión de administrador. No incluye despliegue público, pagos, correo ni cuentas de cliente autenticadas.
+
+Para publicar cambios desde Windows, abre [SUBIR_A_GITHUB.bat](SUBIR_A_GITHUB.bat). El archivo solicita la autorización de la cuenta `tatojc` en GitHub y después ejecuta `git push` a `main`, conservando el historial del repositorio.
