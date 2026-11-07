@@ -1,0 +1,8 @@
+import fs from 'node:fs/promises';import vm from 'node:vm';
+const root='entrega/Prototipo';const src=await fs.readFile(root+'/HTML/app.js','utf8');
+const services=vm.runInNewContext(src.match(/const services=(\[[\s\S]*?\n\]);/)[1]);const staff=vm.runInNewContext(src.match(/const staff=(\[.*?\]);/)[1]);
+const images={corte:'corte.jpg',manicure:'unas.jpg',masaje:'bienestar.jpg'};services.forEach(s=>{s.img=images[s.id]||s.id+'.jpg';s.active=true});staff.forEach(p=>{p.img=p.id==='cualquiera'?'salon.jpg':p.id+'.jpg';p.active=true});
+const seed={version:2,services,staff:staff.filter(p=>p.id!=='cualquiera'),settings:{name:'AppSalón',tagline:'Tu momento, a tu manera.',address:'Salón de demostración · Bogotá',phone:'',open:'09:00',close:'18:00',breakStart:'12:30',breakEnd:'13:30',openDays:[1,2,3,4,5,6],bookingDays:14,cancellation:'Puedes cambiar o cancelar tu cita desde Mis citas. En esta demostración no hay cobros ni penalizaciones.'}};
+await fs.mkdir(root+'/Servidor',{recursive:true});await fs.writeFile(root+'/Servidor/seed.json',JSON.stringify(seed,null,2));await fs.writeFile(root+'/HTML/catalogo.js','/* Catálogo inicial público; no contiene credenciales. */\nwindow.APP_SEED='+JSON.stringify(seed,null,2)+';\n');await fs.writeFile('tmp/seed-backup.json',JSON.stringify(seed,null,2));
+let html=await fs.readFile(root+'/HTML/index.html','utf8');html=html.replace('<script src="app.js"></script>','<script src="catalogo.js"></script><script src="app.js"></script><script src="admin.js"></script>');await fs.writeFile(root+'/HTML/index.html',html);
+console.log('Catálogo con 12 fotografías de servicios y 4 retratos de demostración.');

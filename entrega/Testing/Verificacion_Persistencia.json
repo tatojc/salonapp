@@ -1,0 +1,57 @@
+{
+  "type": "verificacion_tecnica_aislada_sin_participantes",
+  "checks": [
+    {
+      "name": "Ruta protegida POST /api/admin/staff",
+      "ok": true
+    },
+    {
+      "name": "Ruta protegida POST /api/admin/services",
+      "ok": true
+    },
+    {
+      "name": "Ruta protegida PATCH /api/admin/settings",
+      "ok": true
+    },
+    {
+      "name": "Ruta protegida PATCH /api/admin/appointments/AS-1",
+      "ok": true
+    },
+    {
+      "name": "Ruta protegida POST /api/admin/password",
+      "ok": true
+    },
+    {
+      "name": "Cambio de clave exige contraseña actual",
+      "ok": true
+    },
+    {
+      "name": "Guarda una nueva contraseña",
+      "ok": true
+    },
+    {
+      "name": "Cambiar contraseña revoca otras sesiones",
+      "ok": true
+    },
+    {
+      "name": "Contraseña guardada como hash con sal, sin texto plano",
+      "ok": true
+    },
+    {
+      "name": "El precio editado persiste al reiniciar servidor",
+      "ok": true
+    },
+    {
+      "name": "Reinicio requiere nuevo inicio de sesión",
+      "ok": true
+    },
+    {
+      "name": "Contraseña anterior deja de ser válida",
+      "ok": true
+    },
+    {
+      "name": "Nueva contraseña persiste al reiniciar",
+      "ok": true
+    }
+  ]
+}

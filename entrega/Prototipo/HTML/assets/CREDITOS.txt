@@ -1,0 +1,34 @@
+RECURSOS VISUALES Y TIPOGRÁFICOS
+Las fotografías ambientan una demostración académica. Los retratos son fotografías ilustrativas para perfiles ficticios; no identifican a empleados reales.
+Licencia Unsplash: https://unsplash.com/license
+
+salon.jpg: https://images.unsplash.com/photo-1562322140-8baeececf3df
+corte.jpg: https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f
+unas.jpg: https://images.unsplash.com/photo-1604654894610-df63bc536371
+bienestar.jpg: https://images.unsplash.com/photo-1544161515-4ab6ce6db874
+
+Inter: Rasmus Andersson, https://github.com/rsms/inter
+Licencia SIL Open Font License 1.1: ver Inter-LICENSE.txt.
+Georgia y Segoe UI: fuentes de sistema para títulos / alternativa.
+Iconos y marca SVG: construidos en código para este proyecto.
+Los recursos usados durante la ejecución se incluyen localmente. No requiere llamadas a Google Fonts o Unsplash.
+
+RECURSOS AÑADIDOS PARA LA AMPLIACIÓN
+Unsplash: https://unsplash.com/license
+peinado.jpg: https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=900&q=85&fit=crop
+barba.jpg: https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=900&q=85&fit=crop
+clasico.jpg: https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=900&q=85&fit=crop
+combo.jpg: https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=900&q=85&fit=crop
+semipermanente.jpg: https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=900&q=85&fit=crop
+facial.jpg: https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&q=85&fit=crop
+valentina.jpg: https://images.unsplash.com/photo-1580489944761-15a19d654956?w=900&q=85&fit=crop
+mateo.jpg: https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=900&q=85&fit=crop
+camila.jpg: https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=900&q=85&fit=crop
+sara.jpg: https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=900&q=85&fit=crop
+
+Pexels: https://www.pexels.com/license/
+color.jpg: https://www.pexels.com/photo/woman-getting-her-hair-colored-8468126/
+tratamiento.jpg: cottonbro studio, https://www.pexels.com/photo/woman-getting-her-hair-shampoo-3993444/
+pedicure.jpg: Zeal Creative Studios, https://www.pexels.com/photo/relaxing-spa-pedicure-service-in-salon-31091768/
+
+Las fotografías subidas después desde administración son responsabilidad del propietario del salón y no forman parte de los recursos de stock iniciales.

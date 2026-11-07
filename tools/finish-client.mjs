@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';let s=await fs.readFile('entrega/Prototipo/HTML/app.js','utf8');
+s=s.replace('<div class="eyebrow">${k}</div><h1 tabindex="-1">${title}</h1>${desc?`<p>${desc}</p>`:', '<div class="eyebrow">${esc(k)}</div><h1 tabindex="-1">${esc(title)}</h1>${desc?`<p>${esc(desc)}</p>`:');
+s=s.replace('<span class="icon-wrap">${icon(i)}</span>', '<img class="category-photo" src="${esc(photoSource(services.find(s=>s.cat===c)?.img))}" alt="">');
+s=s.replace('<div class="notice">Salón de demostración · Bogotá. Llega 10 minutos antes de tu horario.</div>','<div class="notice">${esc(salonSettings.address)}. Llega 10 minutos antes de tu horario.</div>');
+s=s.replace('AppSalón · Un espacio para ti.<br>', '${esc(salonSettings.name)} · ${esc(salonSettings.tagline)}<br>');
+s=s.replace('<h1 tabindex="-1">Tu momento,<br>a tu manera.</h1>','<h1 tabindex="-1">${salonSettings.tagline===window.APP_SEED.settings.tagline?\'Tu momento,<br>a tu manera.\':esc(salonSettings.tagline)}</h1>');
+s=s.replace('<div class="notice">${esc(salonSettings.address)}. Llega 10 minutos antes de tu horario.</div>','<div class="notice">${esc(salonSettings.address)}. Llega 10 minutos antes de tu horario.</div>');
+s=s.replace('Sí. Abre el detalle y elige Cancelar cita. Revisa el resumen y confirma. En esta demostración no hay cobros ni penalizaciones.', '${POLICY}');s=s.replace("'${POLICY}'",'salonSettings.cancellation');
+s=s.replace('profile.name.split(\' \').map(w=>w[0]).join(\'\').slice(0,2)',"profile.name.split(/\\s+/).filter(Boolean).map(w=>w[0]).join('').slice(0,2)");
+await fs.writeFile('entrega/Prototipo/HTML/app.js',s);
+let server=await fs.readFile('entrega/Prototipo/Servidor/server.mjs','utf8');server=server.replace("if(/^[a-z0-9_-]+\\.(jpg|png|webp)$/i.test(v))return v;", "if(['salon.jpg','corte.jpg','color.jpg','peinado.jpg','tratamiento.jpg','barba.jpg','clasico.jpg','combo.jpg','unas.jpg','semipermanente.jpg','pedicure.jpg','facial.jpg','bienestar.jpg','valentina.jpg','mateo.jpg','camila.jpg','sara.jpg'].includes(v))return v;");await fs.writeFile('entrega/Prototipo/Servidor/server.mjs',server);
+console.log('Interfaz y fotografías listas.');

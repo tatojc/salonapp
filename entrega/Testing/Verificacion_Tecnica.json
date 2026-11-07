@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-07",
+  "type": "verificacion_tecnica_automatizada_no_participantes",
+  "browser": "Chrome headless",
+  "checks": [
+    {
+      "name": "Accesibilidad automática: Inicio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Selección actualiza total",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Servicios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Profesional",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Fecha",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Descanso bloqueado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Horario",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Revisión",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Confirmación",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reserva persiste con total y duración",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Mis citas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Detalle de cita",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reagendar abre con borrador vacío previo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reagendar conserva contexto tras recarga",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reagendar conserva código sin duplicar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Cancelar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Salir de cancelación conserva cita",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cancelación confirmada libera cita",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: 13_DetalleServicio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: 14_Equipo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: 15_PerfilProfesional",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: 16_Perfil",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: 17_Acceso",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: 18_Registro",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: 19_Ayuda",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: 20_Guia",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Búsqueda sin resultados informa estado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Categoría filtra tres servicios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Compatibilidad de servicios filtra profesionales",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Combinación suma 90 minutos y $80.000",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Duración completa bloquea cierre",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Evita citas solapadas del mismo profesional",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Enlace de salto accesible con teclado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Enlace de salto apunta al contenido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Registro de testing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Testing inicia sin participantes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desborde horizontal móvil: inicio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Móvil inicio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desborde horizontal móvil: servicios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Móvil servicios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desborde horizontal móvil: perfil",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Móvil perfil",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin desborde horizontal móvil: citas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad automática: Móvil citas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Ejecución directa por archivo sin servidor",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin errores JavaScript",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "audits": [
+    {
+      "screen": "Inicio",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "screen": "Servicios",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "screen": "Profesional",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "screen": "Fecha",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "screen": "Horario",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "screen": "Revisión",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "screen": "Confirmación",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "Mis citas",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "Detalle de cita",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "Cancelar",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "13_DetalleServicio",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "14_Equipo",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "15_PerfilProfesional",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "screen": "16_Perfil",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "17_Acceso",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "18_Registro",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "19_Ayuda",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "20_Guia",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "Registro de testing",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "Móvil inicio",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "screen": "Móvil servicios",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "screen": "Móvil perfil",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "Móvil citas",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "01_Inicio_Desktop.png",
+    "02_Catalogo.png",
+    "03_Profesional.png",
+    "04_Fecha.png",
+    "05_Horario.png",
+    "06_Revision.png",
+    "07_Confirmacion.png",
+    "08_MisCitas.png",
+    "09_DetalleCita.png",
+    "10_Reagendar.png",
+    "11_Cancelar.png",
+    "12_Cancelada.png",
+    "13_DetalleServicio.png",
+    "14_Equipo.png",
+    "15_PerfilProfesional.png",
+    "16_Perfil.png",
+    "17_Acceso.png",
+    "18_Registro.png",
+    "19_Ayuda.png",
+    "20_Guia.png",
+    "21_HerramientaTesting.png",
+    "22_Inicio_Movil.png",
+    "23_Catalogo_Movil.png",
+    "24_Perfil_Movil.png",
+    "25_Citas_Movil.png"
+  ]
+}

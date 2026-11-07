@@ -1,0 +1,9 @@
+import fs from 'node:fs/promises';
+const p='entrega/Prototipo/HTML/';let js=await fs.readFile(p+'app.js','utf8');
+js=js.replaceAll(' loading="lazy"','');
+js=js.replace("${draft.ids.includes(s.id)?'Quitar':'Elegir'} ${s.name}","${draft.ids.includes(s.id)?'Elegido: quitar':'Elegir'} ${s.name}");
+js=js.replace('aria-label="${dateLabel(d)}${dateObj(d).getDay()===0?', 'aria-label="${new Intl.DateTimeFormat(\'es-CO\',{weekday:\'short\'}).format(dateObj(d))} ${dateObj(d).getDate()} ${new Intl.DateTimeFormat(\'es-CO\',{month:\'short\'}).format(dateObj(d))}: ${dateLabel(d)}${dateObj(d).getDay()===0?');
+js=js.replace("window.addEventListener('hashchange',render);render();","window.addEventListener('hashchange',()=>{if(location.hash==='#main'){$('#main')?.setAttribute('tabindex','-1');$('#main')?.focus();return}render()});render();");
+await fs.writeFile(p+'app.js',js);await fs.appendFile(p+'styles.css','\nh1[tabindex="-1"]:focus{outline:none}\n');
+let v=await fs.readFile('tools/verify.mjs','utf8');v=v.replace("await page.screenshot({path:path.join(evidence,name+'.png'),fullPage:true})","await page.evaluate(()=>Promise.all(Array.from(document.images).map(i=>i.complete?Promise.resolve():i.decode().catch(()=>{}))));await page.screenshot({path:path.join(evidence,name+'.png'),fullPage:true})");v=v.replace("await page.locator('.selected-count').innerText()==='1 seleccionado(s) · 45 min · $45.000'","(await page.locator('.selected-count').innerText()).replace(/\\s/g,'')==='1seleccionado(s)·45min·$45.000'");v=v.replace("longDuration.includes('$80.000')","longDuration.replace(/\\s/g,'').includes('$80.000')");v=v.replace("await page.reload();await page.keyboard.press('Tab');record('Enlace de salto", "await page.reload();await page.locator('.skip').focus();record('Enlace de salto");await fs.writeFile('tools/verify.mjs',v);
+console.log('Etiquetas accesibles, salto al contenido y capturas refinados.');

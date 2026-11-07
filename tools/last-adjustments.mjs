@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';
+let app=await fs.readFile('entrega/Prototipo/HTML/app.js','utf8');app=app.replace('<span>Prototipo académico · servicios y precios de demostración</span>', '<span>${esc(salonSettings.address)}${salonSettings.phone&&salonSettings.phone!==\'Sin teléfono\'?\' · \'+esc(salonSettings.phone):\'\'}</span><br><span>Prototipo académico · servicios y precios de demostración</span>');await fs.writeFile('entrega/Prototipo/HTML/app.js',app);
+let p=await fs.readFile('tools/package.mjs','utf8');p=p.replace("archive.directory(root,false);", "for(const f of files)archive.file(path.join(root,f.path),{name:f.path});archive.file(path.join(root,'VERIFICACION_ENTREGA.json'),{name:'VERIFICACION_ENTREGA.json'});");await fs.writeFile('tools/package.mjs',p);

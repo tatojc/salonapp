@@ -1,0 +1,10 @@
+node_modules/
+tmp/
+.appsalon/
+entrega/Prototipo/Servidor/datos/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db

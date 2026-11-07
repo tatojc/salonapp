@@ -1,0 +1,5 @@
+Esta carpeta todavía no contiene evidencia de participantes.
+Guarda capturas REALES y anónimas: P01_T1_confirmacion.png, P01_T2_cambio.png, P01_T3_cancelacion.png; equivalente para P02.
+No es necesario fotografiar rostros. Obtén consentimiento y oculta información personal.
+Exporta las sesiones desde Prototipo/HTML/testing.html y guarda AppSalon_Sesiones_Reales.json en Testing/.
+Las capturas automatizadas existentes están en Verificacion_Tecnica y no representan participantes.

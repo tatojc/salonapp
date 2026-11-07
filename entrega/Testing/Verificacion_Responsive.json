@@ -1,0 +1,215 @@
+{
+  "type": "prueba_tecnica_sin_participantes",
+  "checks": [
+    {
+      "width": 320,
+      "route": "inicio",
+      "ok": true,
+      "scroll": 320,
+      "title": "Tu momento,a tu manera."
+    },
+    {
+      "width": 320,
+      "route": "servicios",
+      "ok": true,
+      "scroll": 320,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 320,
+      "route": "servicio/corte",
+      "ok": true,
+      "scroll": 320,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 320,
+      "route": "equipo",
+      "ok": true,
+      "scroll": 320,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 320,
+      "route": "profesional/valentina",
+      "ok": true,
+      "scroll": 320,
+      "title": "Valentina Ruiz"
+    },
+    {
+      "width": 320,
+      "route": "profesionales",
+      "ok": true,
+      "scroll": 320,
+      "title": "Valentina Ruiz"
+    },
+    {
+      "width": 320,
+      "route": "fecha",
+      "ok": true,
+      "scroll": 320,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 320,
+      "route": "horario",
+      "ok": true,
+      "scroll": 320,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 320,
+      "route": "resumen",
+      "ok": true,
+      "scroll": 320,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 320,
+      "route": "citas",
+      "ok": true,
+      "scroll": 320,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 320,
+      "route": "perfil",
+      "ok": true,
+      "scroll": 320,
+      "title": "Mi perfil."
+    },
+    {
+      "width": 320,
+      "route": "acceso",
+      "ok": true,
+      "scroll": 320,
+      "title": "Bienvenido de nuevo."
+    },
+    {
+      "width": 320,
+      "route": "registro",
+      "ok": true,
+      "scroll": 320,
+      "title": "Crea tu perfil."
+    },
+    {
+      "width": 320,
+      "route": "ayuda",
+      "ok": true,
+      "scroll": 320,
+      "title": "Un poco de claridad."
+    },
+    {
+      "width": 320,
+      "route": "guia",
+      "ok": true,
+      "scroll": 320,
+      "title": "Un recorrido por AppSalón."
+    },
+    {
+      "width": 768,
+      "route": "inicio",
+      "ok": true,
+      "scroll": 768,
+      "title": "Tu momento,a tu manera."
+    },
+    {
+      "width": 768,
+      "route": "servicios",
+      "ok": true,
+      "scroll": 768,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 768,
+      "route": "servicio/corte",
+      "ok": true,
+      "scroll": 768,
+      "title": "Corte & estilo"
+    },
+    {
+      "width": 768,
+      "route": "equipo",
+      "ok": true,
+      "scroll": 768,
+      "title": "Conoce a tu equipo."
+    },
+    {
+      "width": 768,
+      "route": "profesional/valentina",
+      "ok": true,
+      "scroll": 768,
+      "title": "Valentina Ruiz"
+    },
+    {
+      "width": 768,
+      "route": "profesionales",
+      "ok": true,
+      "scroll": 768,
+      "title": "Valentina Ruiz"
+    },
+    {
+      "width": 768,
+      "route": "fecha",
+      "ok": true,
+      "scroll": 768,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 768,
+      "route": "horario",
+      "ok": true,
+      "scroll": 768,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 768,
+      "route": "resumen",
+      "ok": true,
+      "scroll": 768,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 768,
+      "route": "citas",
+      "ok": true,
+      "scroll": 768,
+      "title": "Servicios para sentirte bien."
+    },
+    {
+      "width": 768,
+      "route": "perfil",
+      "ok": true,
+      "scroll": 768,
+      "title": "Mi perfil."
+    },
+    {
+      "width": 768,
+      "route": "acceso",
+      "ok": true,
+      "scroll": 768,
+      "title": "Mi perfil."
+    },
+    {
+      "width": 768,
+      "route": "registro",
+      "ok": true,
+      "scroll": 768,
+      "title": "Crea tu perfil."
+    },
+    {
+      "width": 768,
+      "route": "ayuda",
+      "ok": true,
+      "scroll": 768,
+      "title": "Un poco de claridad."
+    },
+    {
+      "width": 768,
+      "route": "guia",
+      "ok": true,
+      "scroll": 768,
+      "title": "Un recorrido por AppSalón."
+    }
+  ]
+}

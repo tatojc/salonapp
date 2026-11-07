@@ -1,0 +1,84 @@
+{
+  "project": "AppSalón",
+  "status": "pendiente_sin_participantes",
+  "participantsDocumented": 0,
+  "sessions": [
+    {
+      "participant": "P01",
+      "consent": null,
+      "context": null,
+      "device": null,
+      "recordedAt": null,
+      "tasks": [
+        {
+          "task": "T1",
+          "result": null,
+          "seconds": null,
+          "ease1to7": null,
+          "help": null,
+          "notes": null,
+          "evidence": []
+        },
+        {
+          "task": "T2",
+          "result": null,
+          "seconds": null,
+          "ease1to7": null,
+          "help": null,
+          "notes": null,
+          "evidence": []
+        },
+        {
+          "task": "T3",
+          "result": null,
+          "seconds": null,
+          "ease1to7": null,
+          "help": null,
+          "notes": null,
+          "evidence": []
+        }
+      ],
+      "positive": null,
+      "improvements": null
+    },
+    {
+      "participant": "P02",
+      "consent": null,
+      "context": null,
+      "device": null,
+      "recordedAt": null,
+      "tasks": [
+        {
+          "task": "T1",
+          "result": null,
+          "seconds": null,
+          "ease1to7": null,
+          "help": null,
+          "notes": null,
+          "evidence": []
+        },
+        {
+          "task": "T2",
+          "result": null,
+          "seconds": null,
+          "ease1to7": null,
+          "help": null,
+          "notes": null,
+          "evidence": []
+        },
+        {
+          "task": "T3",
+          "result": null,
+          "seconds": null,
+          "ease1to7": null,
+          "help": null,
+          "notes": null,
+          "evidence": []
+        }
+      ],
+      "positive": null,
+      "improvements": null
+    }
+  ],
+  "problems": []
+}

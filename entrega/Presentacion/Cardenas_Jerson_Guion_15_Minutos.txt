@@ -1,0 +1,31 @@
+APPSALÓN - GUION DE PRESENTACIÓN (15 minutos + 5 de preguntas)
+
+0:00-2:00 CONTEXTO (diapositivas 1-2)
+Explica el problema: coordinar por separado servicio, costo y horario obliga a comparar información. Presenta el salón ficticio y el objetivo: reservar comprendiendo el compromiso. Aclara que el prototipo es local y no crea citas reales.
+
+2:00-4:00 USUARIO (diapositiva 3)
+Presenta las dos personas como hipótesis: Laura necesita rapidez y Carlos claridad al cambiar. Relaciona las necesidades con tarjetas comparables, resumen y acciones explícitas. No digas que fueron entrevistadas.
+
+4:00-7:00 PROCESO (diapositivas 4-5)
+Recorre identificar necesidades, diseñar alternativas, prototipar y evaluar. Muestra el sitemap y los wireframes. Explica la jerarquía de explorar, reservar y gestionar. Los artefactos de baja fidelidad explican estructura; no prueban una validación anterior.
+
+7:00-12:00 DISEÑO Y DEMO (diapositivas 6-9)
+Abre index.html. Selecciona Corte & estilo, profesional, fecha y hora. Muestra total y duración. Usa datos ficticios. Entra también a Administración y enseña equipo, precios y agenda. Confirma, abre Mis citas y cambia la fecha. Enseña que el código se conserva. Entra a cancelar y primero conserva la cita. Explica Fitts con parámetros supuestos, Hick sin confundir una decisión con el recorrido total y Tesler con porcentajes estimados. Muestra el foco al usar Tab y el diseño móvil.
+
+12:00-14:00 TESTING (diapositivas 10-11)
+Muestra resultados técnicos y dos ajustes reales: etiquetas y salto al contenido. Estado actual: no hay participantes humanos. Antes de la exposición final, realiza P01/P02 y reemplaza esta parte por hallazgos reales con sus evidencias; no presentes la revisión automática como testing con personas. El formulario testing.html facilita registro y exportación.
+
+14:00-15:00 CIERRE (diapositiva 12)
+Concluye que el prototipo permite comprobar reglas de interacción, pero la comprensión se valida observando usuarios. Próximo paso: sesiones, priorización y repetición de tareas. La ampliación incluye backend local y administración. Para operación pública: despliegue, HTTPS, identidad de clientes y políticas comerciales verificadas.
+
+PREGUNTAS PREVISIBLES
+- ¿Por qué HTML? La consigna permite opción B; funciona sin depender de enlaces públicos ni cuentas.
+- ¿Son reales las personas? No, son hipótesis explícitas.
+- ¿Se midió la mejora de Fitts? No, se modeló con parámetros declarados.
+- ¿Categorizar siempre reduce tiempo? No. Hay decisiones adicionales; se evaluará encontrabilidad.
+- ¿De dónde sale 70/30 de Tesler? De un inventario de diez responsabilidades de igual peso, no de un test cognitivo.
+- ¿Cumple AA? Implementa criterios y pasa las reglas automáticas revisadas; falta auditoría completa y lector de pantalla.
+- ¿Dos sesiones permiten generalizar? No, son evaluación formativa exploratoria.
+- ¿La cita llega al administrador? Sí, si se usa el servidor local. Abrir index.html directamente mantiene una demostración separada sin agenda compartida.
+
+PREPARACIÓN: confirmar autoría; realizar sesiones humanas; cerrar datos personales; abrir prototipo y PDF antes de iniciar; ensayar hasta 15 minutos; llevar ZIP y copia local.

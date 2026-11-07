@@ -1,0 +1,22 @@
+ANTES DE ENTREGAR: 2 SESIONES REALES
+
+Preparación (5 minutos)
+1. Lee el Plan_Testing.pdf. Invita a dos adultos con perfiles distintos y pide consentimiento.
+2. Abre Prototipo/HTML/testing.html en una pestaña. Abre index.html en otra.
+3. En Mi perfil, borra los datos de demostración entre participantes. Este botón no elimina los registros de testing.
+
+Por participante (20-25 minutos)
+4. Selecciona P01 o P02. Anota dispositivo y experiencia sin identificar a la persona.
+5. Lee cada tarea. Pulsa Iniciar cronómetro; observa sin indicar el camino.
+6. Al terminar, pulsa Detener. Registra resultado, facilidad 1-7, ayuda y notas reales.
+7. Guarda capturas anónimas de momentos relevantes, con consentimiento. No necesitas rostros.
+8. Registra las preguntas de cierre y nombres de los archivos. Guarda la sesión.
+
+Al finalizar
+9. Descarga las sesiones JSON en Testing/. Guarda las capturas en Evidencias/Sesiones_Reales/.
+10. Usa Imprimir registro > Guardar como PDF para obtener un anexo de observaciones.
+11. Completa Resultados_Testing y las páginas 18-21 del proceso con lo que ocurrió realmente. Actualiza también la presentación.
+12. Registra al menos dos problemas si los observas; nunca los inventes. Para cada uno: evidencia, severidad, frecuencia con denominador y propuesta. Prioriza como máximo dos críticos y repite las tareas afectadas.
+13. Comprime otra vez la carpeta de entrega y verifica que los archivos se abran.
+
+El documento de proceso tiene un editable .md en Anexos. Los scripts y datos de generación están en tools/ del workspace APPSALON, si necesitas regenerar PDF con ayuda técnica.

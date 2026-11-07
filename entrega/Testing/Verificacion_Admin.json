@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-07",
+  "type": "verificacion_tecnica_sin_participantes",
+  "checks": [
+    {
+      "name": "Agenda completa requiere sesión de administrador",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "No permite cambiar precios sin sesión",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Rechaza contraseña incorrecta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad: Acceso administrador",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad: Resumen administrador",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sesión HttpOnly y SameSite Strict",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad: Agregar trabajador",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Agrega trabajador y fotografía desde el formulario",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad: Trabajadores",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Edita trabajador y persiste al recargar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cancelar eliminación conserva trabajador",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Eliminar trabajador lo retira de reservas y catálogo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cliente puede crear una cita compartida",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Administrador ve datos de todas las citas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Otro cliente no puede ver datos personales ajenos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Otro cliente no puede cancelar una cita ajena",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Protege trabajadores con citas futuras activas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Administrador cambia precio validado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Nuevo precio se refleja en catálogo público",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cita anterior conserva su precio acordado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Rechaza confirmar con un precio desactualizado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Rechaza precio negativo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad: Servicios y precios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Formulario de precios guarda en el servidor",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Puede agregar un servicio completo con foto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Servicio eliminado deja de ofrecerse",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Acepta y guarda una fotografía subida",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Rechaza SVG y formatos no permitidos en fotografías",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad: Agenda administrador",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Filtra citas por cliente",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad: Gestión de cita",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reasignación del administrador llega al cliente",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Administrador puede marcar una cita como completada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accesibilidad: Configuración",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Configuración se refleja en el sitio de clientes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Dos reservas simultáneas no ocupan el mismo profesional",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Rechaza cambios desde otro origen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Exporta la agenda del administrador como CSV",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Los 12 servicios tienen fotografía cargada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todos los trabajadores visibles tienen fotografía",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 390 admin",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 390 admin/trabajadores",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 390 admin/servicios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 390 admin/citas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 390 admin/ajustes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 390 admin/trabajador/nuevo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 390 admin/servicio/nuevo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 320 admin",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 320 admin/trabajadores",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 320 admin/servicios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 320 admin/citas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 320 admin/ajustes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 320 admin/trabajador/nuevo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Reflujo 320 admin/servicio/nuevo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Cerrar sesión revoca el acceso al panel y API",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sin errores JavaScript",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "audits": [
+    {
+      "screen": "Acceso administrador",
+      "violations": []
+    },
+    {
+      "screen": "Resumen administrador",
+      "violations": []
+    },
+    {
+      "screen": "Agregar trabajador",
+      "violations": []
+    },
+    {
+      "screen": "Trabajadores",
+      "violations": []
+    },
+    {
+      "screen": "Servicios y precios",
+      "violations": []
+    },
+    {
+      "screen": "Agenda administrador",
+      "violations": []
+    },
+    {
+      "screen": "Gestión de cita",
+      "violations": []
+    },
+    {
+      "screen": "Configuración",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

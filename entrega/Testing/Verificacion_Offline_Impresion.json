@@ -1,0 +1,46 @@
+{
+  "type": "verificacion_tecnica_sin_participantes",
+  "testingStartsAtZero": true,
+  "printHidesBlankForm": true,
+  "printShowsResults": true,
+  "offlineAssets": [
+    {
+      "src": "assets/mark.svg",
+      "width": 150
+    },
+    {
+      "src": "assets/salon.jpg",
+      "width": 1100
+    },
+    {
+      "src": "assets/corte.jpg",
+      "width": 800
+    },
+    {
+      "src": "assets/barba.jpg",
+      "width": 900
+    },
+    {
+      "src": "assets/unas.jpg",
+      "width": 800
+    },
+    {
+      "src": "assets/facial.jpg",
+      "width": 900
+    },
+    {
+      "src": "assets/corte.jpg",
+      "width": 800
+    },
+    {
+      "src": "assets/unas.jpg",
+      "width": 800
+    },
+    {
+      "src": "assets/bienestar.jpg",
+      "width": 800
+    }
+  ],
+  "failedRequests": [],
+  "errors": []
+}
